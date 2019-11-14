@@ -100,6 +100,7 @@ public class MainContactActivity extends AppCompatActivity {
             }
         });
 
+        
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(jsonObjectRequest);
     }
